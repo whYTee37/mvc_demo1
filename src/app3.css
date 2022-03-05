@@ -1,0 +1,16 @@
+#app3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app3 > .square {
+  border: 1px solid red;
+  width: 40%;
+  height: 20vw;
+  transition: transform 1s;
+}
+
+#app3 > .square.active {
+  transform: translateX(10vw);
+}
